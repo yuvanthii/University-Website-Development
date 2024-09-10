@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+      <meta name="veiwport" content="width=device-width, initial-scale=1.0">  
+      <title>university web design</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+      <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/font-awesome.min.css">
+      
+    </head>
+    <body>
+
+
+      <section class="sub-header">
+        <nav>
+          <a href="website.html"><img src="eduford_img/logo.png"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">HOME</a></li>
+              <li><a href="about.html">ABOUT</a></li>
+              <div class="dropdown">
+                <button class="dropbtn">COURSES</button>
+                <div class="dropdown-content">
+                  <a href="courses.html">INTRODUCTION</a>
+                  <a href="ug courses.html">ENGINEERING</a>
+                  <a href="#">Link 3</a>
+                </div>
+              </div>
+              <li><a href="blog.html">BLOG</a></li>
+              <li><a href="">CONTACT</a></li>
+              <li><a href="signup.html">MEMBERSHIP</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <h1>ABOUT US</h1>
+
+        <!-------ABOUT US------->
+    
+     <section class="about-us">
+      <div class="about-row">
+        <br>
+        <p>Our university is dedicated to fostering an inclusive and diverse community, upholding excellence, integrity, innovation, collaboration, and sustainability. These core values guide our mission to provide high standards in education, ethical behavior, creative problem-solving, teamwork, and environmental stewardship, preparing our students to be impactful global citizens.</p>
+
+          <br><br>
+        <div class="about-col">
+         
+          <b>MISSION</b>
+          <P>
+            <BR><br><br>
+            Our mission is to cultivate a dynamic learning community that encourages curiosity, critical thinking, and lifelong growth. We aim to empower students as ethical leaders and global citizens, fostering an inclusive environment where diversity is celebrated and accessibility is prioritized.
+            Our vision is to be a leading institution known for transformative education, innovative research, and impactful service. By embracing change and preparing students to tackle global challenges, we strive to make a positive difference in society, shaping the leaders of tomorrow.</P>
+          <img src="eduford_img/acmission.jpg">
+        </div>
+        <div class="about-col">
+          <B>ACADEMICS</B>
+          <P>
+            <BR><br><br>
+            We are dedicated to academic excellence across all disciplines. Our rigorous curriculum is designed to challenge and inspire students, preparing them with the knowledge and skills needed to succeed in their careers and contribute to society. 
+            Our faculty members are distinguished scholars and practitioners who are committed to teaching, mentorship, and groundbreaking research. With state-of-the-art facilities and resources, we foster an environment where innovation thrives and where students are encouraged to explore their passions and pursue intellectual curiosity.
+            Our commitment to academic rigor ensures that graduates of our college are well-equipped to make meaningful contributions in their fields and to lead with integrity and expertise.<br><br></P>
+          <img src="eduford_img/learning.jpg">
+        </div>
+        <DIV class="about-col">
+          <B>LEADERSHIP</B>
+          <P>
+            <BR><br><br>
+            Leadership isn't just a concept; it's a lived experience that permeates every facet of our institution. Our commitment to fostering visionary leadership begins with our dedicated faculty and extends to our diverse student body, where innovation and collaboration thrive. 
+            We empower our students to become tomorrow's leaders through hands-on learning, mentorship programs, and a curriculum designed to cultivate critical thinking and ethical decision-making. At the heart of our approach is a belief in nurturing leadership that is not only 
+            transformative but also inclusive, ensuring that every student has the opportunity to realize their full potential and make a meaningful impact in their communities and beyond.</P>
+          <img src="eduford_img/about.jpg">
+        </DIV>
+        <div class="about-col">
+          <b>COMMUNITY</b>
+          <P><BR><br><br>Community is the cornerstone of our identity. We cherish the rich tapestry of perspectives and backgrounds that our students, faculty, and staff bring, 
+            creating a vibrant and inclusive environment where everyone feels valued and supported. Through our strong community engagement initiatives, partnerships with local organizations, and service-learning opportunities,
+             we encourage our members to make a positive difference in the world around them. Whether it's through volunteering, research collaborations, or cultural exchanges, we believe in harnessing the power of our collective diversity to address global challenges and contribute meaningfully to society. 
+             Together, we foster a community that not only educates but also inspires and uplifts each individual to reach their fullest potential.</P>
+          <img src="eduford_img/commui.jpg">
+        </div>
+      </div>
+     </section>
+
+     
+     <!--------------OVERVIEW-------------->
+     <section class="overview">
+      <h1>CAMPUS OVERVIEW</h1>
+
+
+     </section>
+    
+
+     <section class="footer">
+      <h4>ABOUT US</h4>
+      <P>"Welcome to our university, a beacon of academic excellence and community . <br>For a number years, we've fostered intellectual curiosity and personal growth through innovative teaching and mentorship.<br> Our dedicated faculty and diverse programs prepare students to excel in their fields and contribute as global citizens.<br> Join us for a transformative educational journey."</P>
+      <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-instagram" ></i>
+        <i class="fa fa-linkedin" ></i>
+        <i class="fa fa-twitter" ></i>
+        <br><br><br>
+        <a href="index.html" class="hero-btn red-btn">EXPLORE MORE</a>
+        
+      </div>
+     </section>
+
+     <script>
+      var navLinks = document.getElementById("navLinks")
+      function showMenu(){
+        navLinks.style.right = "0";
+      }
+      function hideMenu(){
+        navLinks.style.right = "-400px";
+      }
+     </script>
+     
+
+
+
+
+    </body>
+
+</html>
